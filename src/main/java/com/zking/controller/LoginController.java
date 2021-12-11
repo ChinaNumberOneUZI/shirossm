@@ -30,7 +30,7 @@ public class LoginController {
     public String login(User user,HttpSession session){
         Map<String,Object> map=new HashMap<>();
         System.out.println("sas");
-        String msg="登录成功!";
+        String msg="登录成功";
         int code=1;
         Subject subject = SecurityUtils.getSubject();
         UsernamePasswordToken token=new UsernamePasswordToken(
